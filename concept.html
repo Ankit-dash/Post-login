@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Credit - Loan &amp; Credit Company HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0 ;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top:0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="main">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex justify-content-between">
+                        <!-- Logo Area -->
+                        <div class="logo">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
+
+                        <!-- Top Contact Info -->
+                        <div class="top-contact-info d-flex align-items-center">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="25 th Street Avenue, Los Angeles, CA"><img src="img/core-img/placeholder.png" alt=""> <span>25 th Street Avenue, Los Angeles, CA</span></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="office@yourfirm.com"><img src="img/core-img/message.png" alt=""> <span>office@yourfirm.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar Area -->
+        <div class="credit-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="creditNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="concept.html">Concept</a></li>
+                                    <li><a href="#">Products</a>
+                                        <ul class="dropdown">
+                                            <li><a href="">Savings Account</a></li>
+                                            <li><a href="#">Individual Loans</a></li>
+                                            <li><a href="#">Organisation Loans</a></li>
+                                            <li><a href="#">Organistaion Account</a></li>
+                                            <li><a href="#">Distress Insurance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Services</a>
+                                    <div class="dropdown">
+                                        <ul class="single-mega cn-col-4">
+                                            <li><a href="education.html">Education</a></li>
+                                            <li><a href="entertainment.html">Entertainment</a></li>
+                                            <li><a href="selflearning.html">Self Learning</a></li>
+                                            <li><a href="mentorship.html">Mentorship/Counselling</a></li>
+                                            <li><a href="itsupport.html">IT Support</a></li>
+                                            <li><a href="support.html">Support</a></li>
+                                            <li><a href="marketing.html">Marketing</a></li>
+                                            <li><a href="sales.html">Sales</a></li>
+                                            <li><a href="food.html">Food/Ration</a></li>
+                                        </ul>
+                                    </div></li>
+                                    <li><a href="Offer.html">Offers</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="contact">
+                          <a onclick="openNav()"><img src="https://signup.trybooking.com/media/imgs/653488ddd926ab077de00f6d07ada3535e6dc186.png" style="width:40px;height:40px;margin-left:100px" alt="User"></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="dashboard.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Dashboard</a>
+        <a href="passbook.html"><i class="fa fa-book" aria-hidden="true"></i> Passbook</a>
+        <a href="requestsList1.html"><i class="fa fa-window-restore" aria-hidden="true"></i>My applications</a>
+        <a href="requestsList2.html"><i class="fa fa-anchor" aria-hidden="true"></i> Pull requests</a>
+        <a href="calendar.html"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>calendar</a>
+        <a href="account.html"><i class="fa fa-cog" aria-hidden="true"></i> Account settings</a>
+        <a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+      </div>
+    <!-- ##### Header Area End ##### -->
+    <div class="container">
+        <div class="row">
+            <div id="askModal" class="modal fade col-5 offset-md-4" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="content">
+                    <div class="modal-content">
+                        <div class="modal-header  bg-warning">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="form">
+                            <div class="form-row">
+                                <div class="col-12 form-check">
+                                    <input type="radio" name="GFG" id="GFG"  value="GeeksforGeeks">
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        User
+                                      </label>
+                                </div>
+                                <div class="col-12 form-check">
+                                    <input type="radio" name="GFG" id="JS" value="JavaScript">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Organisational user
+                                      </label>
+                                </div>
+                                    <button type="button" class="bg-success" onclick="display()" data-dismiss="modal" >
+                                        Submit
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="userModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header  bg-warning">
+                    <h4 class="modal-title">User Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row p-3">
+                            <div class="col-12 col-md-4">
+                            <a href="newaccount.html"
+                                 type="button" class="btn btn-success btn-sm ml-auto">Create new account
+                            </a>
+                            </div>
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                        <div class="form-row">
+                            <div class="section-heading col-12 text-center">
+                                <div class="line"></div>
+                                <h6>Or login with</h6>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-xs-4 col-sm-3">
+                                <a href="#" class="btn btn-lg bg-info btn-block omb_btn-facebook">
+                                    <i class="fa fa-facebook visible-xs"></i>
+                                    <span class="hidden-xs">Facebook</span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4 col-sm-3">
+                                <a href="#" class="btn btn-lg bg-gray btn-block omb_btn-twitter">
+                                    <i class="fa fa-twitter visible-xs"></i>
+                                    <span class="hidden-xs">Twitter</span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4 col-sm-3">
+                                <a href="#" class="btn btn-lg btn-block bg-warning omb_btn-google">
+                                    <i class="fa fa-google-plus visible-xs"></i>
+                                    <span class="hidden-xs">Google+</span>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div id="orgModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <div class="modal-content">
+                    <div class="modal-header  bg-warning">
+                        <h4 class="modal-title">Organisation Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                </div>
+                                <div class="col-sm-auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <select class="form-control">
+                                    <option>Select Organisation</option>
+                                    <option>Organisation 2</option>
+                                    <option>Default select</option>
+                                    <option>Default select</option>
+                                </select>
+                            </div>
+                            <div class="form-row p-3">
+                                <div class="col-12 col-md-4">
+                                <a href="newaccount.html"
+                                     type="button" class="btn btn-success btn-sm ml-auto">Create new account
+                                </a>
+                                </div>
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                            <div class="form-row">
+                                <div class="section-heading col-12 text-center">
+                                    <div class="line"></div>
+                                    <h6>Or login with</h6>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-xs-4 col-sm-3">
+                                    <a href="#" class="btn btn-lg bg-info btn-block omb_btn-facebook">
+                                        <i class="fa fa-facebook visible-xs"></i>
+                                        <span class="hidden-xs">Facebook</span>
+                                    </a>
+                                </div>
+                                <div class="col-xs-4 col-sm-3">
+                                    <a href="#" class="btn btn-lg bg-gray btn-block omb_btn-twitter">
+                                        <i class="fa fa-twitter visible-xs"></i>
+                                        <span class="hidden-xs">Twitter</span>
+                                    </a>
+                                </div>
+                                <div class="col-xs-4 col-sm-3">
+                                    <a href="#" class="btn btn-lg btn-block bg-warning omb_btn-google">
+                                        <i class="fa fa-google-plus visible-xs"></i>
+                                        <span class="hidden-xs">Google+</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+            </div>
+            </div>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/13.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h2>Concept</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Concept</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Breadcrumb Area End ##### -->
+    <section class="about-area section-padding-100-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="about-content">
+                        <!-- Section Heading -->
+                        <div class="section-heading">
+                            <div class="line"></div>
+                            <p>Take look at</p>
+                            <h2>WHAT IS TIME BANKING</h2>
+                        </div>
+                            <p class="p-1 text-dark">In economics, a time-based currency is an exchange system where the unit of account is the
+                                person-hour or some other time unit. Some time-based currencies value everyone's
+                                contributions equally: one hour equals one service credit. In this system, one person volunteers
+                                to work for an hour for another person; thus, they are credited with one hour, which they can
+                                redeem for an hour of service from another member.It is a reciprocity-based work trading
+                                system in which hours are the currency.</p>
+
+                                <p class="p-1 text-dark">It is a system of bartering various services for one another using labor-time as a unit of account
+                                which was developed by various socialist thinkers based on the labor theory of value. Their
+                                units can be credited to a person’s account in the time bank and redeemed for services from
+                                other members of the time bank. It can be considered a form of community currency. However,
+                                because the labor-time units of account are not generally accepted outside the membership of
+                                the time bank, nor for general goods traded in the market other than specific labor services, it
+                                does not constitute a form of money in an economic sense outside the inherently limited context
+                                of the time bank itself.</p>
+                                <p class="p-1 text-dark">In a time-banking environment, people receive labor-time credits when they provide a service to
+                                another member of the time bank. Every hour of time is just valued the same, regardless of the
+                                service rendered. In theory, any type of service can be exchanged for another.
+                                It uses modern technology to try to introduce the secondary functions of money to formalize and
+                                regulate the practice of trading favors and mutual or social obligations. It functions as a hybrid
+                                system between a true monetary economy of indirect exchange and a reciprocal gift economy
+                                characteristic of informal, pre-capitalist, and primitive economies. As such, it can have some of
+                                the advantages and disadvantages of both types of economic systems.</p>
+                                <p class="p-1 text-dark"> It is promoted as helping to foster community ties and encourage people who would not
+                                normally get involved in traditional volunteering. It seeks to overcome the problems of the social
+                                and economic alienation between producers and consumers that is widely believed to
+                                characterize industrial capitalist economies and has often formed the rationale for social unrest
+                                and revolutionary communism. It formally and tangibly recognizes the economic value of labor
+                                services that are not traditionally traded in the formal monetary economy but that often form the
+                                basis of valuable social capital.</p>
+                                <p class="p-1 text-dark">The technology tries to introduce the secondary functions of money to formalize and regulate
+                                the practice of trading favors and mutual or social obligations. It functions as a hybrid system
+                                between a true monetary economy of indirect exchange and a reciprocal gift economy
+                                characteristic of informal, pre-capitalist, and primitive economies. As such, it can have some of
+                                the advantages and disadvantages of both types of economic systems.</p>
+
+                                <p class="p-1 text-dark">The academics aiming to study new age solutions to the problems of market failure and social
+                                isolation back radical solutions emphasize its advantages in building community, inclusion,
+                                volunteerism, and social assistance. It is promoted as helping to foster community ties and
+                                encourage people who would not normally get involved in traditional volunteering. It seeks to
+                                overcome the problems of the social and economic alienation between producers and
+                                consumers that is widely believed to characterize industrial capitalist economies and has often
+                                formed the rationale for social unrest and revolutionary communism. It formally and tangibly
+                                recognizes the economic value of labor services that are not traditionally traded in the formal
+                                monetary economy but that often form the basis of valuable social capital. Above all, it has been
+                                championed for enabling people with low incomes to access services that would be
+                                unaffordable to them in the traditional market economy.
+                                Critics also fear that time banking could distort market
+                                forces, causing economic problems. However, with the
+                                economic problems already stemming from free market
+                                economies in recent years, the system is often seen as more
+                                of a solution than a threat. It is a way of spending one hour
+                                of time helping someone out by, for example, mowing
+                                someone’s lawn, or doing their shopping. For every hour
+                                spent, you earn an hour in return. This can be spent on
+                                receiving an hour of someone else’s time or, where
+                                available, things like theatre or cinema tickets. You could
+                                learn something new or share a skill you have like cooking or
+                                playing a musical instrument.</p>
+                                <p class="p-1 text-dark">The stagnant state of the global economy has worked in time banks’ favour. People are
+                                increasingly keen to find alternative ways of leveraging their skills and resources through the
+                                crowd economy. For instance, if you can’t find someone who’ll pay you cash to teach them a
+                                language or mentor their child, why not see if you can find someone who’ll pay you in time?
+                                In future, time banks could be a valuable means for people to ‘pay in’ time in their youth and
+                                spend it in their old age. Time banks could also help to plug gaps in public service provision,
+                                ensuring people are still cared for when the state isn’t up to the task.
+                                Life has changed and our friends and family do not always live nearby. It is not so easy to ask
+                                neighbours for help these days, particularly if we do not know if we can ever pay them back.We
+                                believe that every person in society is of value no matter what their age or ability. Everyone has
+                                knowledge and experience and every person has the ability to help someone</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-area section-padding-100-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="about-content">
+                        <!-- Section Heading -->
+                        <div class="section-heading">
+                            <div class="line"></div>
+                            <p>Future of our</p>
+                            <h2>Philosophy of Time Banking</h2>
+                        </div>
+                            <p class="p-1 text-dark mb-0 text-capitalized">We are all very familiar with what the economy is. Or at least we think we are. It’s where we
+                                earn and spend the money we use to get essential things like food and shelter. The economy is
+                                so familiar to us that, like chefs with the spices, we hardly even see it for what it is. What we
+                                don’t always recognize is that the money economy we have created is just one part of the way
+                                we organize our affairs. There is another, invisible economy that we take part in every day of
+                                our lives. It is the economy of home, family, neighborhood and community. We don’t think of it
+                                as an economic system—but it is. It is so important that it deserves the name that economist
+                                Neva Goodwin gave it when she called it the “Core” economy.</p>
+                                <p class="p-1 text-dark">In this economy we take price for granted. We know that when goods are scarce, prices go up
+                                    and when they are plentiful, the prices go back down. It is hard for us to think about the
+                                    economy without thinking about price. Price is the way that our society uses to insure that we
+                                    give and get “fair value” for what we buy, sell and trade.</p>
+                                <p class="p-1 text-dark">What we don’t recognize as clearly is that in the money economy, price also applies to all the
+                                    things that make us human. The ability to care for others is something that all of us have, and
+                                    this means that in terms of money, it is worth very little.Because of price, the money economy
+                                    does not value the kind of work it takes to create healthy homes, families and communities.
+                                    Price is unable to mirror the social value of the work that we do in the Core Economy.What we
+                                    forget is that you don’t need to have money with price built into it to have an economy. The
+                                    exchanges are built on a sense of obligation and reciprocity, not price or supply and demand.</p>
+                                <p class="p-1 text-dark"> Time Banking takes the basic ideas of Co-Production and builds on the fact that people
+                                    naturally want to give back, to make a difference, just as professional providers do.Lets take the
+                                    Five Core Values of Time Banking and apply them to the basic idea of Co-Production in the
+                                    fields of social services to create a renewed sense of membership, belonging and joint
+                                    ownership in positive outcomes. This calls for all of the Five Core Values means that-<br>
+                                    ● Clients become valued as assets.<br>
+                                    ● Their contributions are valued – and rewarded – as real work.<br>
+                                    ● Reciprocity between clients and professionals leads to mutually rewarding support and
+                                    stronger outcomes all round.<br>
+                                    ● Clients and service providers all contribute in ways that build a web of mutual support.<br>
+                                    ● There is respect for each and for what each brings to the table.<br>
+                                </p>
+
+                                <p class="p-1 text-dark">When paid work consumes more and more of our waking lives, it is not only the homes, families
+                                    and neighborhoods of the people on the lowest end of the financial spectrum who suffer.Many
+                                    of us are struggling with too few social support to maintain safe and vibrant communities, raise
+                                    our young, and care for our elders.<p>
+                                    <p class="p-1 text-dark">We also see how the monetary economy picks and chooses the people, communities and
+                                    specialized skills it needs. Those with plenty of marketable skills and resources find it easier to
+                                    get more. The people who do not have money or marketable skills—the poor, the elderly, the
+                                    frail, the uneducated—fall between the cracks with no place, no role, and no money to buy what
+                                    they need. Families and whole communities have been shut out of the mainstream economy
+                                    over generations. The strain on them is immense—and frequently spills over into the society at
+                                    large.</p>
+                                    <p class="p-1 text-dark"> Every hour you spend sharing a skill or performing a service for another time bank member can
+                                    be logged on the platform as a “time credit.” You can then exchange your time credits with other
+                                    members for their skills and services.</p>
+                                    <p class="p-1 text-dark">It’s a little like using time as a currency, but it’s so much more than that — time banking makes
+                                    the whole community more resilient. Especially in times of economic instability, because it
+                                    makes it easier to share valuable skills throughout the community without having to use money
+                                    or barter.So for example, if you gave a member a sewing lesson for an hour, and volunteered
+                                    for an hour at a community garden for a member organization, you’d</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-area section-padding-100-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="about-content">
+                        <!-- Section Heading -->
+                        <div class="section-heading">
+                            <div class="line"></div>
+                            <h2>Gramsci Philosophy</h2>
+                        </div>
+                            <p class="p-1 text-dark">The liberal international order (LIO) is in crisis.At the heart of the need for a comprehensive
+                                crisis analysis is the long-term nature of the crisis itself. If the crisis of the LIO did indeed begin
+                                somewhere around the Great Recession, we need to provide an interpretative framework that
+                                will enable us to understand the crisis better as a distinct and decisive period for world affairs. If
+                                we furthermore think about when we might realistically expect to see the advent of a new,
+                                hegemonically stable world order, the time-span of the crisis extends further. In the meantime,
+                                significant global processes are taking place. Analysing these processes only from a historical
+                                or future-orientated perspective fails to grasp their impact on present power relations and the
+                                crisis through which we are living. In order to make educated guesses about the future of world
+                                order, it is crucial that we gain a better understanding and analysis of its current crisis.</p>
+
+                                <p class="p-1 text-dark">There is, then, ample reason to study the crisis of the LIO for itself; however, the attempt to do
+                                    so faces particular difficulties. Fundamental political crises are often perceived as ‘black swan’
+                                    events that challenge well-established modes of thinking and generalizing and often even
+                                    render them obsolete; the crisis appears as the manifestation of historical randomness.The
+                                    result is that severe political and economic crises provoke perplexity and a flood of alternative
+                                    explanations about what went wrong and how to fix it.As scholarship in international political
+                                    economy (IPE) has demonstrated, crises are thus often interpreted from either ‘old’ and
+                                    vanishing analytical frameworks and ‘historical imaginations’, or from new perspectives that
+                                    arise out of the crisis of the old.Gramsci-inspired framework offers tools to overcome this
+                                    analytical problem. By analysing the crisis as a distinct phase of instability and uncertainty, we
+                                    are able to ‘zoom in’ on the particularity and idiosyncrasy of the crisis of the LIO. With Gramsci,
+                                    we are able to think through the organic multidimensionality of a crisis, and are given words and
+                                    concepts that enable us to assess this complexity in an appropriate way, as the empirical entry
+                                    points described in this article show.</p>
+                                <p class="p-1 text-dark">On the material side there are international institutions like the World Bank and the IMF,
+                                    multilateral cooperation in various policy fields, a specific market-based economic model, and
+                                    also an implicit and often explicit ranking order of state power, leadership and responsibility,
+                                    headed by the United States. This material structure is understood as flowing from, or at least
+                                    being grounded in, a broader ‘set of ideas, principles and political agendas for organizing and
+                                    reforming international order’, which is liberal institutionalism.</p>
+                                <p class="p-1 text-dark">Processuality, organicity, morbidity<br>
+                                    Gramsci's prison notebooks represent a running commentary on the crisis of liberalism and the
+                                    Italian state during the last grand transition of world order in the 1920s and 1930s. While
+                                    Gramsci did not develop a crisis theory himself, his thinking can be described as crisis-driven,
+                                    as it evolves through the many crises of the national and international spheres during these
+                                    decades of social and political turmoil. This crisis-driven thinking can serve to equip our
+                                    theoretical toolkit in analysing the current multidimensional crisis of the LIO.Processuality at the
+                                    global political economy level, organicity at the state level and morbidity at the societal level.
+                                    This threefold division structures the subsequent analytical framework and helps us to identify
+                                    empirically accessible moments in the crisis of the LIO.The connection of each of the different
+                                    levels to the relevant IPE and International Relations scholarship on crisis in order to emphasize
+                                    that a Gramscian framework is compatible with existing work on the matter and hence pertinent
+                                    for a broader audience beyond a Gramscian perspective.</p>
+                                <p class="p-1 text-dark">A first and most fundamental aspect of Gramsci's thinking on this subject is that he understood
+                                    crises not as static ‘events’, but as processes.This means, first, that crises are not framed as
+                                    external shocks or exogenous events that break into a social order. Crises have in this sense a
+                                    ‘history’, since they originate in contradictions or tensions in the old, dying social order. For
+                                    Gramsci, those were mainly contradictions that capitalism itself created. If crises are not
+                                    reducible to single, exogenous events, they represent more than just a single moment
+                                    separating the old from the new order. They are, rather, long, multidimensional and
+                                    transformative processes of economic and political insecurity that can last for decades, and can
+                                    develop a ‘life’ of their own. Both points emphasize the centrality of historical accounts in
+                                    studying this ‘life’ of a crisis. In this article, processuality is understood as a feature of crisis on
+                                    the macro level of the global political economy: it is here that the long-term, structural changes
+                                    and crisis developments are analytically located.</p>
+
+                                <p class="p-1 text-dark">In the existing literature, Stuart Hall was the first to emphasize such a Gramscian understanding
+                                    of crisis. He understood crisis as the condensation of underlying societal contradictions that
+                                    move history from one conjuncture to the next.A crisis is always ‘overdetermined’, given that a
+                                    variety of long-term contradictions culminate in a distinct crisis phase.The processuality of the
+                                    crisis has a productive aspect that pushes the boundaries of the existing order, since ‘every
+                                    crisis is also a moment of reconstruction’.In the case of the LIO, this means that there is more
+                                    than one long-term process determining the current crisis , and that the current crisis is
+                                    producing new political realities that merit analysis in their own right.</p>
+                                <p class="p-1 text-dark">The distinction between what Gramsci described as ‘conjunctural’ and ‘organic’
+                                    crises.Conjunctural crisis are those that appear in daily political life; they are usually of a less
+                                    fundamental nature and, on their own, not system-changing. Only organic crises challenge the
+                                    very fundamentals on which social orders are built. They produce the ‘morbid symptoms’ that
+                                    disrupt everyday political and economic life and, in the long run, destroy old societal orders and
+                                    power relations. For Gramsci, organic crises are rooted in an alienation of the masses from their
+                                    political representation, giving rise to a mismatch between ‘represented and
+                                    representatives’.The ‘mummified and anachronistic’ actors of the past are not able to solve the
+                                    crisis within the framework of this dying order. This in turn leads to a ‘crisis of authority’ that
+                                    leaves an ideological void and thus the possibility for different crisis solutions. In the case of the
+                                    LIO, this mismatch concerns the proponents of an international order and those it ought to
+                                    represent, namely the states that are part of this order. This mismatch arises if states withdraw
+                                    their support for core elements of the LIO, such as economic openness or security cooperation.
+                                    The most unequivocal way to do this is at the ballot box, electing leaders and political
+                                    representatives who programmatically reject and deprecate those elements. The crisis of
+                                    authority arises because the withdrawal of states from the LIO leaves a void on the international
+                                    stage that cannot be resolved within the old framework and by the old actors that represent the
+                                    dying order. This national–international divide constitutes the organic crisis of the LIO: the old
+                                    order loses its legitimacy and its supporting states do not offer a solution, but orientate
+                                    themselves away from its core elements.</p>
+                                    <p class="p-1 text-dark">The third point relates to what Gramsci describes as ‘morbid symptoms’. This term is part of his
+                                    famous definition of crisis of authority: ‘The crisis consists precisely in the fact that the old is
+                                    dying and the new cannot be born; in this interregnum a great variety of morbid symptoms
+                                    appear.’The morbidity of the ‘symptoms’ stems from their identification as outgrowths of the
+                                    ‘dying’ order. The symptoms are morbid because they show that the existing order suffers from
+                                    existential problems that are unlikely to be solved within the limits of the old framework. At the
+                                    same time, a new, hegemonically stable order does not seem to be on the rise, ready to
+                                    supplant the old one. This crisis period is thus shaped by morbidities that cannot be managed
+                                    ut at the same time do not represent a viable alternative for the future.<br>
+                                    But if we translate this pattern to the level of world order, we can see a number of phenomena—for
+                                    example, the rise of political leaders who undermine existing institutions and rules; an open
+                                    hostility towards principles such as multilateral cooperation; and an emptying of core values
+                                    such as democratic solidarity—as moments of morbidity that cannot be captured by the logic of
+                                    the LIO itself. They represent problematic developments that erode the LIO without offering a
+                                    new stable equilibrium that could replace the old order. The framework presented in this article
+                                    is set out not to describe those symptoms, but to systematically trace the sources of these
+                                    morbidities within the changing cultural and socio-economic dynamics at work on the societal
+                                    level. In order to make sense of morbid symptoms, analysis should aim above all at
+                                    understanding their drivers. Those drivers manifest themselves in the gradual—passive or
+                                    active—corrosion of the values and attitudes supporting the LIO that in turn feeds the
+                                    morbidities undermining that order. The analysis of these sources of the present morbidities is a
+                                    multidisciplinary undertaking: as emphasized by Gramsci, an organic crisis manifests itself
+                                    across the range of societal spheres, including politics, culture and the economy.Its analysis
+                                    hence needs to take into account different discursive, political and economic factors in order to
+                                    trace the sources of these morbid symptoms.
+                                    <p class="p-1 text-dark"> The three elements of a crisis analysis sketched out above can serve as analytical tools to
+                                    understand the crisis of the LIO from a crisis-centred perspective. The idea is not to give an
+                                    account of the crisis itself, but to offer a coherent approach to studying it. After all, the current
+                                    crisis of world order is too complex and too long standing to be susceptible to a single
+                                    explanation.</p>
+                                    <p class="p-1 text-dark">Taken together, the three areas of possible empirical investigation—the political economy of
+                                    global populism, and the discursive and material foundations of the erosion of the LIO—open
+                                    the way to a better understanding of the national–international nexus as the basis for the
+                                    organicity of the crisis. They illustrate that this current crisis of the LIO is a systemic,
+                                    multidimensional phenomenon that is not likelyto be resolved as a conjunctural crisis could be.</p>
+
+                                    <p class="p-1 text-dark">The ‘material’ erosion of a common civic identity is, from a Gramscian perspective, at least as
+                                    important as the discursive changes of everyday narratives described above. Beyond its
+                                    analytical value, a class focus allows us to understand the emancipatory potential of new
+                                    identities forged out of the crisis of the LIO and the relevance of this potential for other subaltern
+                                    groups that are being marginalized in the current far-right populist version of a new identity.
+                                    The stance taken here also implies a more rigorous and analytically restrained approach to
+                                    questions of a future world order: a redirection of research efforts into understanding the present
+                                    rather than predicting the future is a promising strategy to produce better insights into the social
+                                    dynamics that are drastically changing the face of world order and societies around the globe.
+                                    Thinking along these lines with Gramsci can help us to make sense of what might otherwise at
+                                    times present an incoherent and morbid picture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-100">
+                        <h5 class="widget-title">About Us</h5>
+                        <!-- Nav -->
+                        <nav>
+                            <ul>
+                                <li><a href="#">Homepage</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services &amp; Offers</a></li>
+                                <li><a href="#">Portfolio Presentation</a></li>
+                                <li><a href="#">The News</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-100">
+                        <h5 class="widget-title">Solutions</h5>
+                        <!-- Nav -->
+                        <nav>
+                            <ul>
+                                <li><a href="#">Our Loans</a></li>
+                                <li><a href="#">Trading &amp; Commerce</a></li>
+                                <li><a href="#">Banking &amp; Private Equity</a></li>
+                                <li><a href="#">Industrial &amp; Factory</a></li>
+                                <li><a href="#">Financial Solutions</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-100">
+                        <h5 class="widget-title">Our Loans</h5>
+                        <!-- Nav -->
+                        <nav>
+                            <ul>
+                                <li><a href="#">Our Loans</a></li>
+                                <li><a href="#">Trading &amp; Commerce</a></li>
+                                <li><a href="#">Banking &amp; Private Equity</a></li>
+                                <li><a href="#">Industrial &amp; Factory</a></li>
+                                <li><a href="#">Financial Solutions</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-100">
+                        <h5 class="widget-title">Latest News</h5>
+
+                        <!-- Single News Area -->
+                        <div class="single-latest-news-area d-flex align-items-center">
+                            <div class="news-thumbnail">
+                                <img src="img/bg-img/7.jpg" alt="">
+                            </div>
+                            <div class="news-content">
+                                <a href="#">How to get the best loan?</a>
+                                <div class="news-meta">
+                                    <a href="#" class="post-author"><img src="img/core-img/pencil.png" alt=""> Jane Smith</a>
+                                    <a href="#" class="post-date"><img src="img/core-img/calendar.png" alt=""> April 26</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single News Area -->
+                        <div class="single-latest-news-area d-flex align-items-center">
+                            <div class="news-thumbnail">
+                                <img src="img/bg-img/8.jpg" alt="">
+                            </div>
+                            <div class="news-content">
+                                <a href="#">A new way to get a loan</a>
+                                <div class="news-meta">
+                                    <a href="#" class="post-author"><img src="img/core-img/pencil.png" alt=""> Jane Smith</a>
+                                    <a href="#" class="post-date"><img src="img/core-img/calendar.png" alt=""> April 26</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single News Area -->
+                        <div class="single-latest-news-area d-flex align-items-center">
+                            <div class="news-thumbnail">
+                                <img src="img/bg-img/9.jpg" alt="">
+                            </div>
+                            <div class="news-content">
+                                <a href="#">Finance you home</a>
+                                <div class="news-meta">
+                                    <a href="#" class="post-author"><img src="img/core-img/pencil.png" alt=""> Jane Smith</a>
+                                    <a href="#" class="post-date"><img src="img/core-img/calendar.png" alt=""> April 26</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Area -->
+        <div class="copywrite-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
+                            <!-- Footer Logo -->
+                            <a href="index.html" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+
+                            <!-- Copywrite Text -->
+                            <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Vayam</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('#loginButton').click(function(){
+        $('#askModal').modal('show');
+        });
+    })
+    function display(){
+        if(document.getElementById('GFG').checked){
+            $('#userModal').modal('show');
+    }
+    else if(document.getElementById('JS').checked){
+        $('#orgModal').modal('show');
+    }
+    }
+    </script>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+
+      
+</div>
+</body>
+</html>

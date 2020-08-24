@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Credit - Loan &amp; Credit Company HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0 ;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top:0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="main">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex justify-content-between">
+                        <!-- Logo Area -->
+                        <div class="logo">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
+
+                        <!-- Top Contact Info -->
+                        <div class="top-contact-info d-flex align-items-center">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="25 th Street Avenue, Los Angeles, CA"><img src="img/core-img/placeholder.png" alt=""> <span>25 th Street Avenue, Los Angeles, CA</span></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="office@yourfirm.com"><img src="img/core-img/message.png" alt=""> <span>office@yourfirm.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar Area -->
+        <div class="credit-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="creditNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="concept.html">Concept</a></li>
+                                    <li><a href="#">Products</a>
+                                        <ul class="dropdown">
+                                            <li><a href="">Savings Account</a></li>
+                                            <li><a href="#">Individual Loans</a></li>
+                                            <li><a href="#">Organisation Loans</a></li>
+                                            <li><a href="#">Organistaion Account</a></li>
+                                            <li><a href="#">Distress Insurance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Services</a>
+                                    <div class="dropdown">
+                                        <ul class="single-mega cn-col-4">
+                                            <li><a href="education.html">Education</a></li>
+                                            <li><a href="entertainment.html">Entertainment</a></li>
+                                            <li><a href="selflearning.html">Self Learning</a></li>
+                                            <li><a href="mentorship.html">Mentorship/Counselling</a></li>
+                                            <li><a href="itsupport.html">IT Support</a></li>
+                                            <li><a href="support.html">Support</a></li>
+                                            <li><a href="marketing.html">Marketing</a></li>
+                                            <li><a href="sales.html">Sales</a></li>
+                                            <li><a href="food.html">Food/Ration</a></li>
+                                        </ul>
+                                    </div></li>
+                                    <li><a href="Offer.html">Offers</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="contact">
+                          <a onclick="openNav()"><img src="https://signup.trybooking.com/media/imgs/653488ddd926ab077de00f6d07ada3535e6dc186.png" style="width:40px;height:40px;margin-left:100px" alt="User"></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="dashboard.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Dashboard</a>
+      <a href="passbook.html"><i class="fa fa-book" aria-hidden="true"></i> Passbook</a>
+      <a href="requestsList1.html"><i class="fa fa-window-restore" aria-hidden="true"></i>My applications</a>
+      <a href="requestsList2.html"><i class="fa fa-anchor" aria-hidden="true"></i> Pull requests</a>
+      <a href="calendar.html"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>calendar</a>
+      <a href="account.html"><i class="fa fa-cog" aria-hidden="true"></i> Account settings</a>
+      <a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+    </div>
+    <!-- ##### Header Area End ##### -->
+    <div class="container-fluid mt--6">
+            <div class="row">
+                <div class="col-xl-2 col-md-6">
+                  <div class="card card-stats">
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">No of Tasks done</h5>
+                          <span class="h2 font-weight-bold mb-0">49</span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                            <i class="ni ni-active-40"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                  <div class="card card-stats">
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">Account Type</h5>
+                          <span class="h2 font-weight-bold mb-0">_______</span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
+                            <i class="ni ni-chart-pie-35"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                  <div class="card card-stats">
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">Account Balance</h5>
+                          <span class="h2 font-weight-bold mb-0">120 credits</span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                            <i class="ni ni-money-coins"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                  <div class="card card-stats">
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">Current task</h5>
+                          <span class="h2 font-weight-bold mb-0">Web development</span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                            <i class="ni ni-chart-bar-32"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                  <div class="card card-stats">
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">Dead line</h5>
+                          <span class="h2 font-weight-bold mb-0"> / / </span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                            <i class="ni ni-chart-bar-32"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                  <div class="card card-stats">
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h5 class="card-title text-uppercase text-muted mb-0">No. hrs left</h5>
+                          <span class="h2 font-weight-bold mb-0">8hr</span>
+                        </div>
+                        <div class="col-auto">
+                          <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                            <i class="ni ni-chart-bar-32"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="my-4">
+                <hr class="my-4">
+                <div class="row align-items-center">
+
+                <div class="col">
+                  <div class="about-content">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <div class="line"></div>
+                        <p>Take look at</p>
+                        <h2>Credit expenditure</h2>
+                    </div>
+                </div>
+                  <canvas id="pieChart" style="max-width: 500px;"></canvas>
+                </div>
+                <div class="col">
+                        <div class="about-content">
+                            <!-- Section Heading -->
+                            <div class="section-heading">
+                                <div class="line"></div>
+                                <p>Take look at</p>
+                                <h2>Contributions</h2>
+                            </div>
+                          </div>
+                          <canvas id="pieChart2" style="max-width: 500px;"></canvas>
+                        </div>
+                        </div>
+                    </div>
+
+              <div class="section-heading">
+                <div class="line"></div>
+                <h2>SKILLS</h2>
+            </div>
+        <table class="table table-stripped">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Serial no</th>
+              <th scope="col">Skill</th>
+              <th scope="col">Skill Type</th>
+              <th scope="col">Credits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                1.
+              </th>
+              <td>
+                C language
+              </td>
+              <td>
+                Programming
+              </td>
+              <td>
+                <i class="fa fa-arrow-up text-success mr-3"></i> 60
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                2.
+              </th>
+              <td>
+                Java
+              </td>
+              <td>
+                Programming
+              </td>
+              <td>
+                <i class="fa fa-arrow-down text-warning mr-3"></i> 42
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                3.
+              </th>
+              <td>
+                PHP
+              </td>
+              <td>
+                Scripting Lang
+              </td>
+              <td>
+                <i class="fa fa-arrow-down text-warning mr-3"></i> 36
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                4.
+              </th>
+              <td>
+                MySql
+              </td>
+              <td>
+                database
+              </td>
+              <td>
+                <i class="fa fa-arrow-up text-success mr-3"></i> 58
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                5.
+              </th>
+              <td>
+                Python
+              </td>
+              <td>
+                Language
+              </td>
+              <td>
+                <i class="fa fa-arrow-up text-success mr-3"></i> 70
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    <div class="row">
+      <div class="col-xl-8">
+        <div class="card bg-default">
+          <div class="card-header bg-transparent">
+            <div class="row align-items-center">
+              <div class="col">
+                <h6 class="text-light text-uppercase ls-1 mb-1">Overview</h6>
+                <h5 class="h3 text-white mb-0">Credits</h5>
+              </div>
+              <div class="col">
+                <ul class="nav nav-pills justify-content-end">
+                  <li class="nav-item mr-2 mr-md-0" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix="$" data-suffix="k">
+                    <a href="#" class="nav-link py-2 px-3 active" data-toggle="tab">
+                      <span class="d-none d-md-block">Month</span>
+                      <span class="d-md-none">M</span>
+                    </a>
+                  </li>
+                  <li class="nav-item" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 5, 25, 10, 30, 15, 40, 40]}]}}' data-prefix="$" data-suffix="k">
+                    <a href="#" class="nav-link py-2 px-3" data-toggle="tab">
+                      <span class="d-none d-md-block">Week</span>
+                      <span class="d-md-none">W</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <!-- Chart -->
+            <div class="chart">
+              <!-- Chart wrapper -->
+             <canvas id="chart-sales-dark" class="chart-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <div class="card-header bg-transparent">
+            <div class="row align-items-center">
+              <div class="col">
+                <h6 class="text-uppercase text-muted ls-1 mb-1">Current work</h6>
+                <h5 class="h3 mb-0">Total Tasks</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <!-- Chart -->
+            <div class="chart">
+              <canvas id="chart-bars" class="chart-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+            <footer class="footer-area section-padding-100-0">
+                <!-- Copywrite Area -->
+                <div class="copywrite-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
+                                    <!-- Footer Logo -->
+                                    <a href="index.html" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+        
+                                    <!-- Copywrite Text -->
+                                    <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Vayam</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- ##### Footer Area Start ##### -->
+            <!-- ##### All Javascript Script ##### -->
+            <script>
+              //pie
+            var ctxP = document.getElementById("pieChart").getContext('2d');
+            var myPieChart = new Chart(ctxP, {
+              type: 'pie',
+              data: {
+                labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
+                datasets: [{
+                  data: [300, 50, 100, 40, 120],
+                  backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                  hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+                }]
+              },
+              options: {
+                responsive: true
+              }
+            });
+            </script>
+            
+            <!-- jQuery-2.2.4 js -->
+            <script src="js/jquery/jquery-2.2.4.min.js"></script>
+            <!-- Popper js -->
+            <script src="js/bootstrap/popper.min.js"></script>
+            <!-- Bootstrap js -->
+            <script src="js/bootstrap/bootstrap.min.js"></script>
+            <!-- All Plugins js -->
+            <script src="js/plugins/plugins.js"></script>
+            <!-- Active js -->
+            <script src="js/active.js"></script>
+            <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+
+    <script type="text/javascript">
+      //pie
+      var ctxP = document.getElementById("pieChart").getContext('2d');
+      var myPieChart = new Chart(ctxP, {
+        type: 'pie',
+        data: {
+          labels: ["Spend", "Earned"],
+          datasets: [{
+            data: [30,70],
+            backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+            hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+          }]
+        },
+        options: {
+          responsive: true
+        }
+      });
+      //pie
+      var ctxP = document.getElementById("pieChart2").getContext('2d');
+      var myPieChart2 = new Chart(ctxP, {
+        type: 'pie',
+        data: {
+          labels: ["Web development", "Graphic Design","Content Writing","Sketching","Programming"],
+          datasets: [{
+            data: [30,33,20,7,10],
+            backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+            hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+          }]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+            <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+</div>
+        </body> 
+        </html>
