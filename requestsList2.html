@@ -58,10 +58,35 @@
 #main {
   transition: margin-left .5s;
 }
+.filters{
+  display: none;
+}
+.btn-danger{
+  display: none;
+}
+.btn-danger{
+  margin:0 auto;
+  padding:0 auto;
+}
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+#search{
+  display: none;
+}
+
+.filters{
+  display: block;
+}
+.btn-danger{
+  display: block;
+}
+
+.head{
+  font-size: 20px;
+}
 }
     </style>
 </head>
@@ -172,15 +197,19 @@
       <a href="calendar.html"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>calendar</a>
       <a href="account.html"><i class="fa fa-cog" aria-hidden="true"></i> Account settings</a>
       <a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
-    </div>
+      </div>
+
 
 
 <section>
 
-<h1 class="text-center m-5">| SOME HEADING |</h1>
+<h2 class="text-center m-5 head">| SOME HEADING |</h2>
+<h4 onclick="openFilters()" class="text-center mb-3 mr-5 filters">🔗Filters</h4>
 
-  <div class="container" style="display:flex;">
-    <div class="search" style="width:350px;margin-right:50px;background-color:yellow;padding:50px 0 70px 50px;position:static;height:115vh;">
+  <div class="container" style="display:flex;width:100vw;">
+
+    <div id="search" style="width:350px;margin-right:50px;background-color:yellow;padding:50px 0 70px 50px;position:static;height:125vh;">
+        <button onclick="closeFilters()" class="btn btn-danger float-right">X</button>
       <h4 class="text-center mb-3 mr-5">🔗Filters</h4>
       <input type="checkbox" id="preference">
        <label for="vehicle1">Show works as per my <a>preferences</a></label>
@@ -216,7 +245,7 @@
     </div>
 
 
-    <div style="background:aqua;width:700px;">
+    <div id="Works" style="background:aqua;width:700px;">
 
       <div class="jumbotron jumbotron-fluid m-3" style="border-radius:10px;padding:25px 0;">
        <div class="container">
@@ -559,6 +588,25 @@
                 document.getElementById("main").style.marginLeft= "0";
               }
               </script>
+
+              <script>
+                function openFilters() {
+
+                  var allMyStyle = {
+                                    display: "block",
+                                    margin:"0",
+                                    padding:"50",
+                                    height:"920px"
+                                    };
+                  for (i in allMyStyle)
+                  document.getElementById("search").style[i] = allMyStyle[i];
+                  document.getElementById("Works").style.display = "none";
+                }
+                function closeFilters() {
+                  document.getElementById("search").style.display = "none";
+                  document.getElementById("Works").style.display = "block";
+                }
+                </script>
 
 
           </div>

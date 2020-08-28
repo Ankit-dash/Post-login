@@ -59,9 +59,26 @@
   transition: margin-left .5s;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 750px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+  #main{
+    max-width: 100vw;
+  }
+  .header-area{
+    width: 100vw;
+  }
+  .navbar{
+    width: 100vw;
+  }
+  table{
+    width: 100vw;
+    margin-top: 200px;
+  }
+
+
+
 }
     </style>
 </head>
@@ -164,22 +181,22 @@
         </div>
     </header>
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="dashboard.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Dashboard</a>
-        <a href="passbook.html"><i class="fa fa-book" aria-hidden="true"></i> Passbook</a>
-        <a href="requestsList1.html"><i class="fa fa-window-restore" aria-hidden="true"></i>My applications</a>
-        <a href="requestsList2.html"><i class="fa fa-anchor" aria-hidden="true"></i> Pull requests</a>
-        <a href="calendar.html"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>calendar</a>
-        <a href="account.html"><i class="fa fa-cog" aria-hidden="true"></i> Account settings</a>
-        <a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="dashboard.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Dashboard</a>
+      <a href="passbook.html"><i class="fa fa-book" aria-hidden="true"></i> Passbook</a>
+      <a href="requestsList1.html"><i class="fa fa-window-restore" aria-hidden="true"></i>My applications</a>
+      <a href="requestsList2.html"><i class="fa fa-anchor" aria-hidden="true"></i> Pull requests</a>
+      <a href="calendar.html"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>calendar</a>
+      <a href="account.html"><i class="fa fa-cog" aria-hidden="true"></i> Account settings</a>
+      <a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
       </div>
 
-<div class="container" style="height:200px;">
+<div class="container " style="height:200px;">
  <h1 class="text-center mt-5">My Applications</h1>
 
  <nav class="navbar navbar-expand-lg navbar-dark mt-5" style="background:#ffbb38;border-radius:15px;">
    <form class="form-inline my-5 my-lg-0 ">
-      <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="width:500px;height:50px;">
+      <input class="form-control search-1" type="search" placeholder="Search" aria-label="Search" style="width:300px;height:50px;">
       <button class="btn btn-success my-2 my-sm-0 ml-2 mr-5  " type="submit">Search</button>
 
 
@@ -210,7 +227,7 @@
 </div>
 
 
-<div class="container" style="height:60vh;">
+<div class="container" id="tb">
   <table class="table table-striped table-hover table-bordered">
   <thead>
     <tr>
